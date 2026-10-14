@@ -710,6 +710,51 @@
       "userId": "creator-846dbae3",
       "email": "anil@gmail.com",
       "passwordHash": "a38af994eabfa3f00a775eb74cac416ecc9fdcd2b7fe1a7c1693b0491c2158408830e62660dfa2ae6978d967d872ba5d6818689ca0c156deb66aec9e8560c081"
+    },
+    {
+      "userId": "brand-8649fdc3",
+      "email": "testbrand-1791983773387@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "creator-d1a9f5bb",
+      "email": "testcreator-1791983773387@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "creator-904b4e0c",
+      "email": "intruder-1791983773387@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "brand-08113e37",
+      "email": "testbrand-1791983851885@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "creator-2085c549",
+      "email": "testcreator-1791983851885@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "creator-163379e4",
+      "email": "intruder-1791983851885@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "brand-280b8f73",
+      "email": "testbrand-1791983932015@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "creator-c15ebb43",
+      "email": "testcreator-1791983932015@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
+    },
+    {
+      "userId": "creator-72a49ca8",
+      "email": "intruder-1791983932015@example.com",
+      "passwordHash": "8da37f2b6a5f6e175f3e4c7179c7e498f0a4ecdbb0f15de6a2a49f8c7790240a09070301404b7ea28fe096536deda5dc7d611d890e30eff32d4454d31565a279"
     }
   ],
   "profiles": [
@@ -3783,6 +3828,159 @@
       "social_links": {},
       "verified": false,
       "created_at": "2026-10-12T18:09:37.542Z"
+    },
+    {
+      "id": "brand-8649fdc3",
+      "email": "testbrand-1791983773387@example.com",
+      "name": "Apex Future Brands",
+      "role": "brand",
+      "avatar_url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "bio": "Apex Media Corp — commissioning AI-native creative campaigns.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Apex Media Corp",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:16:13.421Z"
+    },
+    {
+      "id": "creator-d1a9f5bb",
+      "email": "testcreator-1791983773387@example.com",
+      "name": "Zara Vex",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "AI Content Creator specializing in Technology & AI.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Zara Vex AI Studio",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:16:13.502Z"
+    },
+    {
+      "id": "creator-904b4e0c",
+      "email": "intruder-1791983773387@example.com",
+      "name": "Intruder",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "AI Content Creator specializing in AI Video Generation.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Intruder AI Studio",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:16:14.053Z"
+    },
+    {
+      "id": "brand-08113e37",
+      "email": "testbrand-1791983851885@example.com",
+      "name": "Apex Future Brands",
+      "role": "brand",
+      "avatar_url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "bio": "Apex Media Corp — commissioning AI-native creative campaigns.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Apex Media Corp",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:17:31.931Z"
+    },
+    {
+      "id": "creator-2085c549",
+      "email": "testcreator-1791983851885@example.com",
+      "name": "Zara Vex",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "AI Content Creator specializing in Technology & AI.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Zara Vex AI Studio",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:17:32.020Z"
+    },
+    {
+      "id": "creator-163379e4",
+      "email": "intruder-1791983851885@example.com",
+      "name": "Intruder",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "AI Content Creator specializing in AI Video Generation.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Intruder AI Studio",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:17:32.407Z"
+    },
+    {
+      "id": "brand-280b8f73",
+      "email": "testbrand-1791983932015@example.com",
+      "name": "Apex Future Brands",
+      "role": "brand",
+      "avatar_url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "bio": "Apex Media Corp — commissioning AI-native creative campaigns.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Apex Media Corp",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:18:52.060Z"
+    },
+    {
+      "id": "creator-c15ebb43",
+      "email": "testcreator-1791983932015@example.com",
+      "name": "Zara Vex",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "AI Content Creator specializing in Technology & AI.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Zara Vex AI Studio",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:18:52.148Z"
+    },
+    {
+      "id": "creator-72a49ca8",
+      "email": "intruder-1791983932015@example.com",
+      "name": "Intruder",
+      "role": "creator",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "bio": "AI Content Creator specializing in AI Video Generation.",
+      "location": "Remote / Global",
+      "languages": [
+        "English"
+      ],
+      "company_name": "Intruder AI Studio",
+      "website": "",
+      "social_links": {},
+      "verified": false,
+      "created_at": "2026-10-14T13:18:52.645Z"
     }
   ],
   "creator_profiles": [
@@ -13826,7 +14024,7 @@
       "rating": 4.98,
       "review_count": 53,
       "completed_campaigns": 66,
-      "profile_views": 3700,
+      "profile_views": 3703,
       "featured": true,
       "response_time": "< 2 hours"
     },
@@ -14176,6 +14374,288 @@
             "15x Campaign Visuals + 2x Social Videos",
             "Custom LoRA / Style Lock",
             "Source Prompts"
+          ]
+        }
+      ],
+      "availability": "available",
+      "experience_years": 2,
+      "experience_level": "intermediate",
+      "rating": 5,
+      "review_count": 0,
+      "completed_campaigns": 0,
+      "profile_views": 1,
+      "featured": false,
+      "response_time": "< 2 hours"
+    },
+    {
+      "creator_id": "creator-d1a9f5bb",
+      "title": "Technology & AI Specialist",
+      "industry_category": "Technology & AI",
+      "specialization": "Technology & AI",
+      "secondary_categories": [
+        "Technology & AI"
+      ],
+      "skills": [
+        "Cinematic AI Video",
+        "Custom LoRA Training",
+        "Photorealistic Product Renders"
+      ],
+      "ai_tools": [
+        "Midjourney v6",
+        "Runway Gen-3 Alpha",
+        "Flux.1 Pro"
+      ],
+      "content_formats": [
+        "video",
+        "image"
+      ],
+      "starting_price": 18500,
+      "packages": [
+        {
+          "name": "Starter",
+          "price": 18500,
+          "deliveryDays": 4,
+          "revisions": 2,
+          "description": "Starter AI creative package tailored to your brand brief.",
+          "deliverables": [
+            "5x High-Res AI Visuals or 1x 15s Video",
+            "2 Revisions",
+            "Commercial Rights"
+          ]
+        }
+      ],
+      "availability": "available",
+      "experience_years": 2,
+      "experience_level": "intermediate",
+      "rating": 5,
+      "review_count": 0,
+      "completed_campaigns": 1,
+      "profile_views": 1,
+      "featured": false,
+      "response_time": "< 2 hours"
+    },
+    {
+      "creator_id": "creator-904b4e0c",
+      "title": "AI Video Specialist",
+      "industry_category": "Technology & AI",
+      "specialization": "Technology & AI",
+      "secondary_categories": [
+        "Technology & AI"
+      ],
+      "skills": [
+        "Cinematic AI Video",
+        "Custom LoRA Training",
+        "Photorealistic Product Renders"
+      ],
+      "ai_tools": [
+        "Midjourney v6",
+        "Runway Gen-3 Alpha",
+        "Flux.1 Pro"
+      ],
+      "content_formats": [
+        "video",
+        "image"
+      ],
+      "starting_price": 18500,
+      "packages": [
+        {
+          "name": "Starter",
+          "price": 18500,
+          "deliveryDays": 4,
+          "revisions": 2,
+          "description": "Starter AI creative package tailored to your brand brief.",
+          "deliverables": [
+            "5x High-Res AI Visuals or 1x 15s Video",
+            "2 Revisions",
+            "Commercial Rights"
+          ]
+        }
+      ],
+      "availability": "available",
+      "experience_years": 2,
+      "experience_level": "intermediate",
+      "rating": 5,
+      "review_count": 0,
+      "completed_campaigns": 0,
+      "profile_views": 1,
+      "featured": false,
+      "response_time": "< 2 hours"
+    },
+    {
+      "creator_id": "creator-2085c549",
+      "title": "Technology & AI Specialist",
+      "industry_category": "Technology & AI",
+      "specialization": "Technology & AI",
+      "secondary_categories": [
+        "Technology & AI"
+      ],
+      "skills": [
+        "Cinematic AI Video",
+        "Custom LoRA Training",
+        "Photorealistic Product Renders"
+      ],
+      "ai_tools": [
+        "Midjourney v6",
+        "Runway Gen-3 Alpha",
+        "Flux.1 Pro"
+      ],
+      "content_formats": [
+        "video",
+        "image"
+      ],
+      "starting_price": 18500,
+      "packages": [
+        {
+          "name": "Starter",
+          "price": 18500,
+          "deliveryDays": 4,
+          "revisions": 2,
+          "description": "Starter AI creative package tailored to your brand brief.",
+          "deliverables": [
+            "5x High-Res AI Visuals or 1x 15s Video",
+            "2 Revisions",
+            "Commercial Rights"
+          ]
+        }
+      ],
+      "availability": "available",
+      "experience_years": 2,
+      "experience_level": "intermediate",
+      "rating": 5,
+      "review_count": 1,
+      "completed_campaigns": 1,
+      "profile_views": 1,
+      "featured": false,
+      "response_time": "< 2 hours"
+    },
+    {
+      "creator_id": "creator-163379e4",
+      "title": "AI Video Specialist",
+      "industry_category": "Technology & AI",
+      "specialization": "Technology & AI",
+      "secondary_categories": [
+        "Technology & AI"
+      ],
+      "skills": [
+        "Cinematic AI Video",
+        "Custom LoRA Training",
+        "Photorealistic Product Renders"
+      ],
+      "ai_tools": [
+        "Midjourney v6",
+        "Runway Gen-3 Alpha",
+        "Flux.1 Pro"
+      ],
+      "content_formats": [
+        "video",
+        "image"
+      ],
+      "starting_price": 18500,
+      "packages": [
+        {
+          "name": "Starter",
+          "price": 18500,
+          "deliveryDays": 4,
+          "revisions": 2,
+          "description": "Starter AI creative package tailored to your brand brief.",
+          "deliverables": [
+            "5x High-Res AI Visuals or 1x 15s Video",
+            "2 Revisions",
+            "Commercial Rights"
+          ]
+        }
+      ],
+      "availability": "available",
+      "experience_years": 2,
+      "experience_level": "intermediate",
+      "rating": 5,
+      "review_count": 0,
+      "completed_campaigns": 0,
+      "profile_views": 1,
+      "featured": false,
+      "response_time": "< 2 hours"
+    },
+    {
+      "creator_id": "creator-c15ebb43",
+      "title": "Technology & AI Specialist",
+      "industry_category": "Technology & AI",
+      "specialization": "Technology & AI",
+      "secondary_categories": [
+        "Technology & AI"
+      ],
+      "skills": [
+        "Cinematic AI Video",
+        "Custom LoRA Training",
+        "Photorealistic Product Renders"
+      ],
+      "ai_tools": [
+        "Midjourney v6",
+        "Runway Gen-3 Alpha",
+        "Flux.1 Pro"
+      ],
+      "content_formats": [
+        "video",
+        "image"
+      ],
+      "starting_price": 18500,
+      "packages": [
+        {
+          "name": "Starter",
+          "price": 18500,
+          "deliveryDays": 4,
+          "revisions": 2,
+          "description": "Starter AI creative package tailored to your brand brief.",
+          "deliverables": [
+            "5x High-Res AI Visuals or 1x 15s Video",
+            "2 Revisions",
+            "Commercial Rights"
+          ]
+        }
+      ],
+      "availability": "available",
+      "experience_years": 2,
+      "experience_level": "intermediate",
+      "rating": 5,
+      "review_count": 1,
+      "completed_campaigns": 1,
+      "profile_views": 1,
+      "featured": false,
+      "response_time": "< 2 hours"
+    },
+    {
+      "creator_id": "creator-72a49ca8",
+      "title": "AI Video Specialist",
+      "industry_category": "Technology & AI",
+      "specialization": "Technology & AI",
+      "secondary_categories": [
+        "Technology & AI"
+      ],
+      "skills": [
+        "Cinematic AI Video",
+        "Custom LoRA Training",
+        "Photorealistic Product Renders"
+      ],
+      "ai_tools": [
+        "Midjourney v6",
+        "Runway Gen-3 Alpha",
+        "Flux.1 Pro"
+      ],
+      "content_formats": [
+        "video",
+        "image"
+      ],
+      "starting_price": 18500,
+      "packages": [
+        {
+          "name": "Starter",
+          "price": 18500,
+          "deliveryDays": 4,
+          "revisions": 2,
+          "description": "Starter AI creative package tailored to your brand brief.",
+          "deliverables": [
+            "5x High-Res AI Visuals or 1x 15s Video",
+            "2 Revisions",
+            "Commercial Rights"
           ]
         }
       ],
@@ -27988,6 +28468,84 @@
   ],
   "campaigns": [
     {
+      "id": "camp-99869491",
+      "brand_id": "brand-280b8f73",
+      "brand_name": "Apex Media Corp",
+      "brand_logo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "title": "Autonomous AI Brand Teaser 2026",
+      "description": "Need photorealistic cinematic AI video assets showcasing our next-gen robotics platform.",
+      "category": "Technology & AI",
+      "content_type": "AI Video & Stills",
+      "goals": "",
+      "target_audience": "",
+      "deliverables": [
+        "4K Final Master Deliverables"
+      ],
+      "budget_min": 25000,
+      "budget_max": 60000,
+      "deadline": "2026-11-15",
+      "required_skills": [],
+      "required_ai_tools": [],
+      "experience_level": "intermediate",
+      "reference_urls": [],
+      "status": "completed",
+      "created_at": "2026-10-14T13:18:52.454Z",
+      "updated_at": "2026-10-14T13:18:52.723Z",
+      "hired_creator_id": "creator-c15ebb43"
+    },
+    {
+      "id": "camp-eb505c8f",
+      "brand_id": "brand-08113e37",
+      "brand_name": "Apex Media Corp",
+      "brand_logo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "title": "Autonomous AI Brand Teaser 2026",
+      "description": "Need photorealistic cinematic AI video assets showcasing our next-gen robotics platform.",
+      "category": "Technology & AI",
+      "content_type": "AI Video & Stills",
+      "goals": "",
+      "target_audience": "",
+      "deliverables": [
+        "4K Final Master Deliverables"
+      ],
+      "budget_min": 25000,
+      "budget_max": 60000,
+      "deadline": "2026-11-15",
+      "required_skills": [],
+      "required_ai_tools": [],
+      "experience_level": "intermediate",
+      "reference_urls": [],
+      "status": "completed",
+      "created_at": "2026-10-14T13:17:32.279Z",
+      "updated_at": "2026-10-14T13:17:32.488Z",
+      "hired_creator_id": "creator-2085c549"
+    },
+    {
+      "id": "camp-d9a58ffd",
+      "brand_id": "brand-8649fdc3",
+      "brand_name": "Apex Media Corp",
+      "brand_logo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "title": "Autonomous AI Brand Teaser 2026",
+      "description": "Need photorealistic cinematic AI video assets showcasing our next-gen robotics platform.",
+      "category": "Technology & AI",
+      "content_type": "AI Video & Stills",
+      "goals": "",
+      "target_audience": "",
+      "deliverables": [
+        "4K Final Master Deliverables"
+      ],
+      "budget_min": 25000,
+      "budget_max": 60000,
+      "deadline": "2026-11-15",
+      "required_skills": [],
+      "required_ai_tools": [],
+      "experience_level": "intermediate",
+      "reference_urls": [],
+      "status": "completed",
+      "created_at": "2026-10-14T13:16:13.810Z",
+      "updated_at": "2026-10-14T13:16:14.164Z",
+      "hired_creator_id": "creator-d1a9f5bb"
+    },
+    {
       "id": "camp-1",
       "brand_id": "brand-1",
       "brand_name": "Lumina Botanicals & NovaPulse",
@@ -28167,6 +28725,39 @@
   ],
   "campaign_proposals": [
     {
+      "id": "prop-48074d6e",
+      "campaign_id": "camp-99869491",
+      "creator_id": "creator-c15ebb43",
+      "pitch": "I have 3 years of experience generating high-end AI cinematic teasers with Runway Gen-3.",
+      "price": 45000,
+      "timeline": "7 business days",
+      "portfolio_ids": [],
+      "status": "accepted",
+      "created_at": "2026-10-14T13:18:52.476Z"
+    },
+    {
+      "id": "prop-2954c71f",
+      "campaign_id": "camp-eb505c8f",
+      "creator_id": "creator-2085c549",
+      "pitch": "I have 3 years of experience generating high-end AI cinematic teasers with Runway Gen-3.",
+      "price": 45000,
+      "timeline": "7 business days",
+      "portfolio_ids": [],
+      "status": "accepted",
+      "created_at": "2026-10-14T13:17:32.293Z"
+    },
+    {
+      "id": "prop-38509bec",
+      "campaign_id": "camp-d9a58ffd",
+      "creator_id": "creator-d1a9f5bb",
+      "pitch": "I have 3 years of experience generating high-end AI cinematic teasers with Runway Gen-3.",
+      "price": 45000,
+      "timeline": "7 business days",
+      "portfolio_ids": [],
+      "status": "accepted",
+      "created_at": "2026-10-14T13:16:13.828Z"
+    },
+    {
       "id": "prop-1",
       "campaign_id": "camp-1",
       "creator_id": "creator-1",
@@ -28251,6 +28842,51 @@
   ],
   "conversations": [
     {
+      "id": "conv-9c536776",
+      "brand_id": "brand-280b8f73",
+      "brand_name": "Apex Media Corp",
+      "brand_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "creator_id": "creator-c15ebb43",
+      "creator_name": "Zara Vex",
+      "creator_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "campaign_id": "camp-99869491",
+      "campaign_title": "Autonomous AI Brand Teaser 2026",
+      "last_message": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "last_message_at": "2026-10-14T13:18:52.596Z",
+      "unread_count": 1,
+      "created_at": "2026-10-14T13:18:52.569Z"
+    },
+    {
+      "id": "conv-f9eeb49f",
+      "brand_id": "brand-08113e37",
+      "brand_name": "Apex Media Corp",
+      "brand_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "creator_id": "creator-2085c549",
+      "creator_name": "Zara Vex",
+      "creator_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "campaign_id": "camp-eb505c8f",
+      "campaign_title": "Autonomous AI Brand Teaser 2026",
+      "last_message": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "last_message_at": "2026-10-14T13:17:32.370Z",
+      "unread_count": 1,
+      "created_at": "2026-10-14T13:17:32.352Z"
+    },
+    {
+      "id": "conv-53b1eb54",
+      "brand_id": "brand-8649fdc3",
+      "brand_name": "Apex Media Corp",
+      "brand_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "creator_id": "creator-d1a9f5bb",
+      "creator_name": "Zara Vex",
+      "creator_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "campaign_id": "camp-d9a58ffd",
+      "campaign_title": "Autonomous AI Brand Teaser 2026",
+      "last_message": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "last_message_at": "2026-10-14T13:16:14.011Z",
+      "unread_count": 1,
+      "created_at": "2026-10-14T13:16:13.983Z"
+    },
+    {
       "id": "conv-1",
       "brand_id": "brand-1",
       "brand_name": "Sophia Chen (Lumina Botanicals)",
@@ -28286,9 +28922,65 @@
       "body": "I just uploaded the initial Runway Gen-3 styleframes and lighting tests—let me know what you think of Scene 2!",
       "read_status": false,
       "created_at": "2026-10-11T18:45:00Z"
+    },
+    {
+      "id": "msg-974d6e79",
+      "conversation_id": "conv-53b1eb54",
+      "sender_id": "brand-8649fdc3",
+      "sender_name": "Apex Future Brands",
+      "sender_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "body": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "read_status": true,
+      "created_at": "2026-10-14T13:16:14.011Z"
+    },
+    {
+      "id": "msg-a484e100",
+      "conversation_id": "conv-f9eeb49f",
+      "sender_id": "brand-08113e37",
+      "sender_name": "Apex Future Brands",
+      "sender_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "body": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "read_status": true,
+      "created_at": "2026-10-14T13:17:32.370Z"
+    },
+    {
+      "id": "msg-7bef640f",
+      "conversation_id": "conv-9c536776",
+      "sender_id": "brand-280b8f73",
+      "sender_name": "Apex Future Brands",
+      "sender_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "body": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "read_status": true,
+      "created_at": "2026-10-14T13:18:52.596Z"
     }
   ],
   "reviews": [
+    {
+      "id": "rev-b317b215",
+      "campaign_id": "camp-99869491",
+      "campaign_title": "Autonomous AI Brand Teaser 2026",
+      "creator_id": "creator-c15ebb43",
+      "reviewer_id": "brand-280b8f73",
+      "reviewer_name": "Apex Future Brands",
+      "reviewer_company": "Apex Media Corp",
+      "reviewer_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "rating": 5,
+      "feedback": "Outstanding cinematic quality! Flawless Runway Gen-3 motion and delivered 2 days ahead of schedule.",
+      "created_at": "2026-10-14T13:18:52.742Z"
+    },
+    {
+      "id": "rev-329fc3e5",
+      "campaign_id": "camp-eb505c8f",
+      "campaign_title": "Autonomous AI Brand Teaser 2026",
+      "creator_id": "creator-2085c549",
+      "reviewer_id": "brand-08113e37",
+      "reviewer_name": "Apex Future Brands",
+      "reviewer_company": "Apex Media Corp",
+      "reviewer_avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "rating": 5,
+      "feedback": "Outstanding cinematic quality! Flawless Runway Gen-3 motion and delivered 2 days ahead of schedule.",
+      "created_at": "2026-10-14T13:17:32.510Z"
+    },
     {
       "id": "rev-1",
       "campaign_id": "camp-5",
@@ -28317,6 +29009,236 @@
     }
   ],
   "notifications": [
+    {
+      "id": "notif-60258458",
+      "recipient_id": "creator-c15ebb43",
+      "type": "review",
+      "title": "New 5★ Verified Review from Apex Media Corp!",
+      "message": "\"Outstanding cinematic quality! Flawless Runway Gen-3 motion and delivered 2 days...\"",
+      "link": "/creators/creator-c15ebb43",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.749Z"
+    },
+    {
+      "id": "notif-072d5e5a",
+      "recipient_id": "creator-c15ebb43",
+      "type": "campaign",
+      "title": "Campaign Marked Completed! 🏆",
+      "message": "\"Autonomous AI Brand Teaser 2026\" has been marked Completed by Apex Media Corp.",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.733Z"
+    },
+    {
+      "id": "notif-651e3cdc",
+      "recipient_id": "creator-72a49ca8",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Your creator studio is live!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.645Z"
+    },
+    {
+      "id": "notif-b6c3cefe",
+      "recipient_id": "creator-c15ebb43",
+      "type": "message",
+      "title": "New Message from Apex Future Brands",
+      "message": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "link": "/messages",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.611Z"
+    },
+    {
+      "id": "notif-0d1c8ddb",
+      "recipient_id": "creator-c15ebb43",
+      "type": "proposal",
+      "title": "Proposal Accepted! 🎉",
+      "message": "Apex Media Corp accepted your proposal for \"Autonomous AI Brand Teaser 2026\"!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.553Z"
+    },
+    {
+      "id": "notif-76ef3b20",
+      "recipient_id": "brand-280b8f73",
+      "type": "proposal",
+      "title": "New Proposal from Zara Vex",
+      "message": "Zara Vex proposed ₹45,000 (7 business days) for \"Autonomous AI Brand Teaser 2026\".",
+      "link": "/dashboard/brand",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.530Z"
+    },
+    {
+      "id": "notif-a903bf38",
+      "recipient_id": "creator-c15ebb43",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Your creator studio is live!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.148Z"
+    },
+    {
+      "id": "notif-74a441d7",
+      "recipient_id": "brand-280b8f73",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Welcome aboard! Launch your first Campaign Brief.",
+      "link": "/dashboard/brand",
+      "read_status": false,
+      "created_at": "2026-10-14T13:18:52.060Z"
+    },
+    {
+      "id": "notif-3d393f3d",
+      "recipient_id": "creator-2085c549",
+      "type": "review",
+      "title": "New 5★ Verified Review from Apex Media Corp!",
+      "message": "\"Outstanding cinematic quality! Flawless Runway Gen-3 motion and delivered 2 days...\"",
+      "link": "/creators/creator-2085c549",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:32.524Z"
+    },
+    {
+      "id": "notif-71ff30be",
+      "recipient_id": "creator-2085c549",
+      "type": "campaign",
+      "title": "Campaign Marked Completed! 🏆",
+      "message": "\"Autonomous AI Brand Teaser 2026\" has been marked Completed by Apex Media Corp.",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:32.499Z"
+    },
+    {
+      "id": "notif-35966b59",
+      "recipient_id": "creator-163379e4",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Your creator studio is live!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:32.407Z"
+    },
+    {
+      "id": "notif-ce25d52d",
+      "recipient_id": "creator-2085c549",
+      "type": "message",
+      "title": "New Message from Apex Future Brands",
+      "message": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "link": "/messages",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:32.380Z"
+    },
+    {
+      "id": "notif-13f515e8",
+      "recipient_id": "creator-2085c549",
+      "type": "proposal",
+      "title": "Proposal Accepted! 🎉",
+      "message": "Apex Media Corp accepted your proposal for \"Autonomous AI Brand Teaser 2026\"!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:32.338Z"
+    },
+    {
+      "id": "notif-1b754ae9",
+      "recipient_id": "brand-08113e37",
+      "type": "proposal",
+      "title": "New Proposal from Zara Vex",
+      "message": "Zara Vex proposed ₹45,000 (7 business days) for \"Autonomous AI Brand Teaser 2026\".",
+      "link": "/dashboard/brand",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:32.322Z"
+    },
+    {
+      "id": "notif-7b42abd6",
+      "recipient_id": "creator-2085c549",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Your creator studio is live!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:32.020Z"
+    },
+    {
+      "id": "notif-fc0e750e",
+      "recipient_id": "brand-08113e37",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Welcome aboard! Launch your first Campaign Brief.",
+      "link": "/dashboard/brand",
+      "read_status": false,
+      "created_at": "2026-10-14T13:17:31.931Z"
+    },
+    {
+      "id": "notif-c98d6be1",
+      "recipient_id": "creator-d1a9f5bb",
+      "type": "campaign",
+      "title": "Campaign Marked Completed! 🏆",
+      "message": "\"Autonomous AI Brand Teaser 2026\" has been marked Completed by Apex Media Corp.",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:16:14.179Z"
+    },
+    {
+      "id": "notif-8ddfbde5",
+      "recipient_id": "creator-904b4e0c",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Your creator studio is live!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:16:14.053Z"
+    },
+    {
+      "id": "notif-ca570ac7",
+      "recipient_id": "creator-d1a9f5bb",
+      "type": "message",
+      "title": "New Message from Apex Future Brands",
+      "message": "Hi Zara, welcome to the campaign! Let us align on style boards.",
+      "link": "/messages",
+      "read_status": false,
+      "created_at": "2026-10-14T13:16:14.022Z"
+    },
+    {
+      "id": "notif-7c94fe81",
+      "recipient_id": "creator-d1a9f5bb",
+      "type": "proposal",
+      "title": "Proposal Accepted! 🎉",
+      "message": "Apex Media Corp accepted your proposal for \"Autonomous AI Brand Teaser 2026\"!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:16:13.958Z"
+    },
+    {
+      "id": "notif-a5490e86",
+      "recipient_id": "brand-8649fdc3",
+      "type": "proposal",
+      "title": "New Proposal from Zara Vex",
+      "message": "Zara Vex proposed ₹45,000 (7 business days) for \"Autonomous AI Brand Teaser 2026\".",
+      "link": "/dashboard/brand",
+      "read_status": false,
+      "created_at": "2026-10-14T13:16:13.921Z"
+    },
+    {
+      "id": "notif-50b875d5",
+      "recipient_id": "creator-d1a9f5bb",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Your creator studio is live!",
+      "link": "/dashboard/creator",
+      "read_status": false,
+      "created_at": "2026-10-14T13:16:13.502Z"
+    },
+    {
+      "id": "notif-2d6841c0",
+      "recipient_id": "brand-8649fdc3",
+      "type": "system",
+      "title": "Welcome to CreatorConnect AI!",
+      "message": "Welcome aboard! Launch your first Campaign Brief.",
+      "link": "/dashboard/brand",
+      "read_status": false,
+      "created_at": "2026-10-14T13:16:13.421Z"
+    },
     {
       "id": "notif-f75b4d09",
       "recipient_id": "creator-846dbae3",
