@@ -50,8 +50,16 @@ if (fs.existsSync(distPath)) {
 // 6. Centralized Error Handling
 app.use(errorHandler);
 
-// 7. Start server if not running in a test suite or serverless runner
-if (process.env.NODE_ENV !== 'test' && !process.env.VERCEL) {
+// 7. Start server if run directly (not imported by tests or serverless runner)
+const isDirectRun = Boolean(
+  process.argv[1] &&
+  (process.argv[1].endsWith('server\\index.ts') ||
+   process.argv[1].endsWith('server/index.ts') ||
+   process.argv[1].endsWith('server\\index.js') ||
+   process.argv[1].endsWith('server/index.js'))
+);
+
+if (isDirectRun && process.env.NODE_ENV !== 'test' && !process.env.VERCEL) {
   app.listen(PORT, () => {
     console.log(`🚀 CreatorConnect AI Server running on http://localhost:${PORT}`);
     console.log(`📡 API v1 base: http://localhost:${PORT}/api/v1`);

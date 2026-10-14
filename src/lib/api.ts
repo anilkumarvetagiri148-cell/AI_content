@@ -12,6 +12,8 @@ export function setStoredToken(token: string | null): void {
   }
 }
 
+const API_BASE_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+
 export async function apiRequest<T = any>(
   endpoint: string,
   options: RequestInit = {}
@@ -19,6 +21,7 @@ export async function apiRequest<T = any>(
   const token = getStoredToken();
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
+    'bypass-tunnel-reminder': '1',
     ...(options.headers as Record<string, string>),
   };
 
@@ -26,7 +29,11 @@ export async function apiRequest<T = any>(
     headers['Authorization'] = `Bearer ${token}`;
   }
 
-  const response = await fetch(endpoint, {
+  const targetUrl = endpoint.startsWith('http')
+    ? endpoint
+    : `${API_BASE_URL}${endpoint.startsWith('/') ? endpoint : `/${endpoint}`}`;
+
+  const response = await fetch(targetUrl, {
     ...options,
     headers,
   });

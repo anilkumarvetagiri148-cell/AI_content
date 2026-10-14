@@ -4,8 +4,11 @@ import crypto from 'crypto';
 import { DatabaseSchema, getInitialSeedData, SEED_VERSION } from './seedData.js';
 import { FullCreator, Profile } from '../src/types/index.js';
 
-const DATA_DIR = path.resolve(process.cwd(), 'server', 'data');
-const DB_FILE = path.join(DATA_DIR, 'database.json');
+const IS_SERVERLESS = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const BUNDLED_DATA_DIR = path.resolve(process.cwd(), 'server', 'data');
+const BUNDLED_DB_FILE = path.join(BUNDLED_DATA_DIR, 'database.json');
+const DATA_DIR = IS_SERVERLESS ? '/tmp' : BUNDLED_DATA_DIR;
+const DB_FILE = IS_SERVERLESS ? path.join('/tmp', 'database.json') : BUNDLED_DB_FILE;
 const SECRET_KEY = process.env.JWT_SECRET || 'creatorconnect-ai-super-secret-jwt-key-2026';
 
 export function hashPassword(password: string): string {
@@ -57,7 +60,19 @@ class PersistentDatabase {
 
   constructor() {
     if (!fs.existsSync(DATA_DIR)) {
-      fs.mkdirSync(DATA_DIR, { recursive: true });
+      try {
+        fs.mkdirSync(DATA_DIR, { recursive: true });
+      } catch (e) {
+        console.warn('Could not create DATA_DIR:', e);
+      }
+    }
+
+    if (IS_SERVERLESS && !fs.existsSync(DB_FILE) && fs.existsSync(BUNDLED_DB_FILE)) {
+      try {
+        fs.copyFileSync(BUNDLED_DB_FILE, DB_FILE);
+      } catch (e) {
+        console.warn('Could not copy bundled DB to /tmp:', e);
+      }
     }
     if (fs.existsSync(DB_FILE)) {
       try {
